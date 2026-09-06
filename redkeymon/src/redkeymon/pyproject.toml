@@ -12,5 +12,8 @@ dependencies = [
     "torch"
 ]
 
+[tool.setuptools.package-dir]
+"" = "src"
+
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
