@@ -1,5 +1,6 @@
-from redkeymon._core import hello_from_bin
+"""
+redkeymongh
 
+"""
 
-def hello() -> str:
-    return hello_from_bin()
+__version__ = "0.1.0"
